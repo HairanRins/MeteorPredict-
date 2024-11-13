@@ -16,8 +16,9 @@ Pour  visualiser l'évolution de la pollution au cours de l'année et superposer
 On peut évaluer la performance du modèle avec des métriques comme le MSE et le coefficient R²
 
 # Exécution du programme :
-``` python meteor.py ```
+```python meteor.py```
 
+# Illustration graphique :
 
 ![Capture d’écran du 2024-11-13 12-51-53](https://github.com/user-attachments/assets/8b9a9877-b484-4b90-820a-ebfe9407bc6c)
 
