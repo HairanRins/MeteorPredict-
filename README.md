@@ -19,4 +19,5 @@ On peut évaluer la performance du modèle avec des métriques comme le MSE et l
 ``` python meteor.py ```
 
 
-![Capture d’écran du 2024-11-13 12-40-12](https://github.com/user-attachments/assets/32d50eb9-ebf0-43e2-b686-ace58e499364)
+![Capture d’écran du 2024-11-13 12-51-53](https://github.com/user-attachments/assets/8b9a9877-b484-4b90-820a-ebfe9407bc6c)
+
