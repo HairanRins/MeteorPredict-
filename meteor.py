@@ -6,9 +6,9 @@ import matplotlib.pyplot as plt
 # Génération de données synthétiques
 np.random.seed(0)
 jours = 365 
-temperature = np.random.uniform(5,35, jours)  # Température en degrés Celsius
-humidite = np.random.uniform(20,80, jours)  # Humidité en pourcentage
-vitesse_vent = np.random.uniform(0, 15, jours)  # Vitesse du vent en m/s
+temperature = np.random.uniform(5,35, jours) 
+humidite = np.random.uniform(20,80, jours) 
+vitesse_vent = np.random.uniform(0, 15, jours) 
 
 # Pollution fictive : associée à une combinaison de température, humidité, et vent
 pollution = 50 + 0.5 * temperature - 0.2 * humidite - 0.3 * vitesse_vent + np.random.normal(0, 5, jours)
@@ -52,8 +52,6 @@ print(f"Pollution estimée à 12h pour le 13/10/2024 , à 22°C, 45% humidité e
 print(f"Pollution estimée à 13h pour le 13/10/2024 , à 22°C, 42% humidité et {vitesse_vent_13h:.3f} m/s de vent : {pollution_predite_13h[0]:.2f} µg/m³ de PM2.5")
 print(f"Pollution estimée à 14h pour le 13/10/2024 , 23°C, 38% humidité et {vitesse_vent_13h:.3f} m/s de vent : {pollution_predite_14h[0]:.2f} µg/m³ de PM2.5")
 # la valeur de pollution prédite qu'on obtient représente une estimation de la concentration de polluants dans l'air
-
-
 
 heures = ['10h30', '11h', '12h', '13h', '14h']
 pollution_values = [
